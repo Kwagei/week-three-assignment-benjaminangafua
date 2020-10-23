@@ -84,30 +84,70 @@
         width: 80%;
         background-color: transparent;
     }
-    .nav{grid-template-columns: 23% 5% 5% 35% 5% 5% 5% 5%;
+    .nav{grid-template-columns: 5% 5% 35% 5% 5% 5% 5%;
         display: grid;
         column-gap: 2%;
+        margin-left: 5%;
+        background:lightgrey;
     }
-    #background{
-        background-color: white;
-    }
-    .aside{
-        text-align: left;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        background-color: grey;
-        width: 300px;
-        height: 400px;
-        row-gap: 2%;
-        text-align: center;
-        }
+    
     .done{
         padding-left: 12%;
+        padding-right: 15%;
         background: dodgerblue;
         color: gainsboro;
-        margin:9% 12% 9% 12%;
+        margin:9% 20% 9% 40%;
     }
     #inline{
         display: inline-block;
         background-color: gray;
+    }
+    .aside{
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        background-color: grey;
+        width: 200px;
+        height: 400px;
+        }
+        .major{
+            grid-template-columns: 20% 20% 20% 20%;
+            display: flex;
+            column-gap: 20%;
+        }
+    .my1{ background: greenyellow;
+        border-radius: 4px;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .my2{background: purple;
+        width: 75%;
+        border-radius: 4px;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .my3{background: white;
+        border-radius: 4px;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .my4{background: red;
+        border-radius: 4px;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .my5{background: orange;
+        border-radius: 4px;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }

@@ -1,0 +1,131 @@
+body{
+    background-image: url(Background.jpg);
+}
+
+.container{
+display: grid;
+grid-template-columns:15% 50% 0% 5%;
+column-gap: 1%;
+row-gap: 3%;
+color: honeydew;
+margin-top: 50px;
+}
+.div1{
+    height: 30px;
+    margin-bottom: 200px;
+    font-size: 12px;
+    float: left;
+    background: black;
+    color: white;
+    padding: 0.5%;
+}*/
+.div2{
+    margin-left: 5px;
+}
+.div3{
+    width: 130px;
+    margin-left: -110px;
+}
+.div4{
+    margin-left: 200px;
+    height: 20px;
+}
+.div5{
+    margin-left: 250px;
+}
+.div6{
+    margin-left: 5px;
+    width: 200px;
+}
+.div7{
+    margin-left: 20px;
+}
+.div8{
+    background: blue;
+    border-radius: 10%;
+    padding: 25%;
+    text-align: center;
+    color: ghostwhite;
+    width: 130px;
+margin-left: 100px;
+}
+.under{
+display: grid;
+grid-template-columns:5% 70% 0%;
+column-gap: 1%;
+row-gap: 4%;
+color: honeydew;
+}
+.nav{margin-left: 5px;
+    display: flex;
+    column-gap: 1%;
+    background:lightgrey;
+}*
+.done{
+    padding-left: 12%;
+    padding-right: 15%;
+    background: dodgerblue;
+    color: gainsboro;
+    margin:9% 20% 9% 40%;
+}
+#inline{
+    display: inline-block;
+    background-color: gray;
+}
+.aside{
+    padding: 0.5%;
+    margin-right: 300px;
+    margin-bottom: 200px;
+    background-color: grey;
+    width: 200px;
+    height: 400px;
+    border-radius: 12px;
+    }
+    .major{flex-grow: inherit;
+        display: flex;
+        column-gap:4px;
+        margin-left: 1px;
+    }
+.my1{ background: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 60px;
+    float: left;
+    grid-gap: 10px;
+    width: 30%;
+    padding-right: 150px;
+}
+.my2{ background: white;
+    text-align: center;
+    width: 30%;
+    border-radius: 4px;
+    grid-gap: 10px;
+    margin-left: 20px;
+    padding-right: 150px;
+}
+.my3{background: white;
+    text-align: center;
+    width: 30%;
+    border-radius: 4px;
+    grid-gap: 10px;
+    margin-left: 20px;
+    padding-right: 150px;
+}
+.my4{background:white;
+    text-align: center;
+    width: 80%;
+    border-radius: 4px;
+    text-align-last: center;
+    grid-gap: 10px;
+    margin-left: 20px;
+    padding-right: 50px;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    text-align-last: left;
+    column-gap: 100px;
+}
