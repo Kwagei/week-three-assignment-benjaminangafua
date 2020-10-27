@@ -1,6 +1,11 @@
-body{
-    background-image: url(Background.jpg);
+header{
+background-color: teal;
+font-size: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
+
+
 
 .container{
 display: grid;
@@ -8,12 +13,11 @@ grid-template-columns:15% 50% 0% 5%;
 column-gap: 1%;
 row-gap: 3%;
 color: honeydew;
-margin-top: 50px;
+margin-top: 5px;
 }
 .div1{
-    height: 30px;
+    height: 60px;
     margin-bottom: 200px;
-    font-size: 12px;
     float: left;
     background: black;
     color: white;
@@ -41,11 +45,12 @@ margin-top: 50px;
 }
 .div8{
     background: blue;
-    border-radius: 10%;
-    padding: 25%;
+    border-radius: 5%;
     text-align: center;
     color: ghostwhite;
-    width: 130px;
+    padding-top: 12px;
+    width:140px;
+    height:40px;
 margin-left: 100px;
 }
 .under{
@@ -55,74 +60,100 @@ column-gap: 1%;
 row-gap: 4%;
 color: honeydew;
 }
-.nav{margin-left: 5px;
+.nav{
     display: flex;
-    column-gap: 1%;
     background:lightgrey;
-}*
+    width: 800px;
+    height: 50px;
+}
+#align{display: grid;
+    grid-template-columns: 60px 240px;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    position: absolute;
+    background-color: white;
+}
+.itema{
+    grid-column-start: 2;
+    grid-row-start: 1; 
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-top: 1px;
+    background:lightsteelblue;
+    border-radius: 5px;
+    width: 900px;
+}
+
+    .box2{grid-column-start: 1; 
+        grid-row-start: 1; 
+        grid-row-end: 5;
+        background-color: gray;
+        width: 250px;
+        height: 400px;
+        margin-top: 8px;
+        padding-left: 20px;
+        text-align-last: initial;
+        position: absolute;
+        margin-left: 35px;
+    }
+    
+    .my1{
+        grid-column-start: 2;
+        grid-row-start: 2; 
+        margin-top: 30px;
+        margin-left: 250px;
+        background-color:white;
+        border-radius: 12px;
+        height: 600px;
+        width: 230px;
+        text-align: center;}
+    .my2{
+        grid-column-start: 3;
+        grid-row-start: 2; 
+        margin-top: 40px;
+        margin-left: 250px;
+        background-color:white;
+        border-radius: 5px;
+        height: 600px;
+        width: 230px;
+        text-align: center;
+    }
+    .my3{
+        grid-column-start:4;
+        grid-row-start: 2; 
+        margin-top: 40px;
+        margin-left: 20px;
+        background-color:white;
+        border-radius: 12px;
+        height: 600px;
+        width: 230px;
+        text-align: center;
+    }
+    .my4{
+        grid-column-start:5;
+        grid-row-start: 2; 
+        margin-top: 40px;
+        margin-left: 20px;
+        background-color:white;
+        border-radius: 12px;
+        height: 600px;
+        width: 200px;
+        text-align: center;
+    }
+
 .done{
     padding-left: 12%;
     padding-right: 15%;
+    border-radius: 3PX;
     background: dodgerblue;
     color: gainsboro;
     margin:9% 20% 9% 40%;
 }
-#inline{
-    display: inline-block;
-    background-color: gray;
-}
-.aside{
-    padding: 0.5%;
-    margin-right: 10px;
-    margin-bottom: 200px;
-    background-color: grey;
-    width: 200px;
-    height: 400px;
-    border-radius: 12px;
-    }
-    .major{flex-grow: inherit;
-        display: flex;
-        column-gap:4px;
-        margin-left: 1px;
-    }
-.my1{ background: white;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 4px;
-    margin-left: 20px;
-    padding-right: 10px;
-}
-.my2{ background: white;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 4px;
-    margin-left: 20px;
-    padding-right: 10px;
-}
-.my3{ background: white;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    border-radius: 4px;
-    margin-left: 20px;
-    padding-right: 10px;
-    }
-    .my4{background: white;
-    text-align: center;
-    width: 30%;
-    height: 400px;
-    border-radius: 4px;
-    margin-left: 20px;
-    padding-right: 10px;
-    }
 .footer{
-    padding: 20px;
+    padding: 5px 5px 15px 10px;
     display: flex;
     margin-left: 80px;
     color: white;
-    margin-top: 20px;
+    margin-top: 700px;
     text-align-last: left;
     column-gap: 100px;
 }
