@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
-    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="Registration.CSS">
 </head>
-<body>
-    <nav>
-    <header>
-        <div class="div1"> <br> SILKROAD</div>
-        <div class="container">
-            <div class="div2"><a href="Registration.html" style="color: white; text-decoration: none;">Home</a> </div>
-            <div class="div3"> <a href="House.html"  style="color: white; text-decoration: none;">Our Property</a> </div>
-            <div class="div4"> <a href="Login.html"  style="color: white; text-decoration: none;">Login</a>&VerticalLine;  </div>
-            <div class="div5"> <a href="Registration.html"  style="color: white; text-decoration: none;">Register</a> </div>
-        </div><hr>
-        <div class="under">
-            <div class="div6"><a href="Registration.html" style="color: white; text-decoration: none;">Home &gt;</a> </div>
-            <div class="div7"> <a href="Login.html"  style="color: white; text-decoration: none;">Login</a> </div>
-            <div class="div8"> <a href="Property.html"  style="color: white; text-decoration: none;">Post a Property</a> </div>
-        </div>
-    </header> 
-    </nav>
+<body> 
+    <div class="flex">
+        <div id="div1"><br>SILKROAD</div>
+        <header>
+            <div class="container">
+                <div class="div2"><a href="Registration.html" style="color: white; text-decoration: none;">Home</a> </div>
+                <div class="div3"> <a href="House.html" style="color: white; text-decoration: none;">Our Property</a> </div>
+                <div class="div4"> <a href="Login.html"  style="color: white; text-decoration: none;">Login</a>&VerticalLine;  </div>
+                <div class="div5"> <a href="Registration.html"  style="color: white; text-decoration: none;">Register</a> </div>
+            </div><hr style="color: blanchedalmond;">
+            <div class="under">
+                <div class="div6"><a href="Registration.html" style="color: white; text-decoration: none;">Home &gt;</a> </div>
+                <div class="div7"> <a href="Login.html"  style="color: white; text-decoration: none;">Login</a> </div>
+                <div class="div8"> <a href="Property.html"  style="color: white; text-decoration: none;">Post a Property</a> </div>
+            </div>
+        </header><br>
+    </div>
     <main class="main">
+        <div class="wrap" style="border: solid #ffff;" >
+            <div style="margin-top: 20px;"><strong>Already have an account?</strong> <br><br>
+                Null sed justo consectetur,<br> laoreet nisi in morbi pac. <br>
+                Cras petrium nisl tortor, <br> nec finibus libero consectetur
+            </div>
+            <div class="register"> 
+                <a href="Registration.html" style="text-decoration: none; color: white;">Register</a> 
+            </div>
+        </div>
         <div id="login">
             <label for="login">
                 <strong style="text-align: center" !important>LOGIN</strong>
                     <br>
                     <br>
-                    Phone
+                <div style="display: flex;">
+                    Phone:  
                 <select name="Country code" id="Country Code" style="background: rgb(34, 33, 33); color: white;">
                     <option value="+231">+231</option>
                     <option value="+122">+122</option>
@@ -39,28 +49,21 @@
                     <option value="+809">+809</option>
                     <input type="tel" id="tel" placeholder="Phone" style="background: rgba(169, 175, 175, 0.938);">
                 </select>
+                </div> 
                 <br><br>
-                Password: <input type="password" placeholder="Password" style="background: rgba(169, 175, 175, 0.938);">
-                <br><br>
-                <div id="h3" style="color: rgb(13, 240, 153);">Forget Password</div> <br>
+                <div style="display: flex;">
+                    Password:<input type="password" placeholder="Password" style="background: rgba(169, 175, 175, 0.938);">
+                    </div>
+                <br>
+                <div id="h3" style="color: lightseagreen; text-align: end;">Forget Password</div>
+                <br> 
             </label>
             <div class="white">
-                Login
+                Login 
             </div><br>
             <div> Login with <a href="#">
                 <img src="Facebook.jpg" width="20px" height="20px" alt="Facebook page"><img src="Twitter.jpg" width="20px" height="20px" alt="Facebook page"> </a>
             </div>  
-        </div>
-        <div class="wrap" style="border: solid #ffff;" >
-            <div style="margin-top: 20px;"><strong>Already have an account?</strong> <br><br>
-                Null sed justo consectetur, laoreet nisi in morbi pac. <br><br>
-                Cras petrium nisl tortor, <br> nec finibus libero consectetur
-            </div>
-            <div style="border-radius: 5px; border: groove; 
-            margin:1% 82% 1% 5%; padding-right:80px; background: black; text-align: center;"> 
-            <a href="Registration.html" style="text-decoration: none; color: white; text-align: center;">Register</a> 
-            </div>
-            </div>
         </div>
     </main>
 </body>
