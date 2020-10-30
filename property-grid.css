@@ -1,14 +1,14 @@
 body{
-    background-image: url(Background.jpg);
+    background: lightgray;
 }
 header{
-background-color: black;
-border: 1px solid black;
-opacity: 0.6;
-padding-left: 120px;
+background-color: #656668;
+padding-left: 180px;
 font-size: 14px;
 padding-top: 20px;
-padding-bottom: 20px;}
+padding-bottom: 20px;
+margin-left: 0%;
+}
 
 .container{
 display: grid;
@@ -19,6 +19,7 @@ color: honeydew;
 margin-top: 5px;
 }
 #div1{
+    margin-left: 20px;
     margin-top: 20px;
     height: 60px;
     width: 100px;
@@ -41,7 +42,7 @@ margin-top: 5px;
     height: 20px;
 }
 .div5{
-    margin-left: 150px;
+    margin-left: 135px;
 }
 .div6{
     margin-left: 5px;
@@ -58,12 +59,12 @@ margin-top: 5px;
     padding-top: 12px;
     width:140px;
     height:30px;
-margin-left: 70px;
+margin-left: 1px;
 }
 
 #h3{
-    text-align:end;
-    width: 200px;
+    width: 100px;
+    float: none;;
 }
 
 .under{
@@ -99,7 +100,7 @@ color: honeydew;
     .box2{grid-column-start: 1; 
         grid-row-start: 1; 
         grid-row-end: 5;
-        background-color: rgb(214, 207, 207);
+        background: lightslategrey;
         width: 250px;
         height: 400px;
         margin-top: 1px;
@@ -119,6 +120,13 @@ color: honeydew;
         height: 600px;
         width: 230px;
         text-align: center;}
+    #image1{
+        background-image: url(BUILDING2.jpeg);
+    }
+
+
+
+
     .my2{
         grid-column-start: 3;
         grid-row-start: 2; 
@@ -155,7 +163,7 @@ color: honeydew;
 
 .done{
     border-radius: 3PX;
-    background: grey;
+    background: blue;
     color: #ffffff;
     text-align: center;
     margin:9% 20% 9% 20%;
