@@ -10,13 +10,12 @@
     display: inline-block;
     border-radius: 50%;
     border: 10px dashed#000;
-
     padding: 20px;
 }
 .sec, .min, .hour{
     line-height: 45px;
     position: relative;
-    transform-origin: bottom ;
+    transform-origin: bottom;
 }
 .sec{
     height: 248px;
