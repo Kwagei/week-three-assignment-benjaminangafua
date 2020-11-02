@@ -1,6 +1,7 @@
 body{
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.082)),url(Egertonhall_Backbalcony_001.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }

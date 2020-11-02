@@ -1,4 +1,4 @@
-body{
+body{ height: 100vh;
     background: lightgray;
 }
 header{
@@ -175,9 +175,10 @@ color: honeydew;
 .footer{
     padding: 5px 5px 5px 10px;
     display: flex;
-    margin-left: 80px;
+    margin: auto;
     color: white;
-    margin-top: 700px;
+    position: relative;
+    margin-top: 100%;
     text-align-last: left;
     column-gap: 100px;
 }
