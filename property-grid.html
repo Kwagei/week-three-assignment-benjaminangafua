@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>property-grid</title>
     <link rel="stylesheet" href="property-grid.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .overlay-content {
+          position: relative;
+          top: 46%;
+          width: 80%;
+          text-align: center;
+          margin-top: 30px;
+          margin: auto;}
+          </style>
 </head>
 <body> 
     <div class="flex">
@@ -26,10 +36,12 @@
     <div id="align">
         <div>   
             <div class="box2">
-                <br>
-                <stong style="text-align: left;">Search</stong>
-                <input type="text" placeholder="Search"><br><br>
-                Category<br>
+                <br><stong style="text-align: left;">Search</stong>
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+            <label for="Category">Category<br>
                 <select placeholder="Fashion" name="Fashion" style="background: white;">
                     <option value="Most Resent">Most Recent</option>
                     <option value="Two years ago">Two years ago</option>
@@ -60,6 +72,7 @@
                     <option value="Outside">Outside</option>
                     <option value="Open">Open</option>
                 </select>
+            </label> 
                 <br><br>
                 Price: $00.00-$10,00.00<br>
                 <input type="range">
@@ -70,9 +83,15 @@
             <div style="margin: 20px;">All</div>
             <div style="margin: 20px;">Rent</div>
             <div style="margin: 20px;">sale</div>
-            <div style="margin-top: 20px;margin-left: 510px;">view</div>
-            <div style="margin-left: 20px; margin-top:20px;">Sort by
-            </div>
+            <div style="margin-top: 20px;margin-left: 380px;">View <a href="property-list.html"><i class="fa fa-align-justify"></i></a> <a href="property-grid.html"><i class="fa fa-th" aria-hidden="true"></i>
+            </a></div>
+            <div style="margin-left: 20px; margin-top:20px;">Sort by 
+                <select placeholder="bedroom number" name="bedroom number"style="background: white;">
+                    <option value="Most Recent">Most Recent</option>
+                    <option value="2 Accessible">2 Accessible</option>
+                    <option value="3 Accessible">3 Accessible</option>
+                    <option value="4 Accessible">4 Accessible"</option>
+                </select></div>
         </div>
         <div class="my1">
             <div style="border-color: solid black;">
@@ -94,11 +113,10 @@
         <div class="my2">
             <div style="border-color: solid black;">
                 <div>
-                    <img src="BUILDIN1jpeg" alt="Building" width="200px" height="200;" style="margin: 4px;">
-                <div id="h3" class="key1">$500.00/month</div>
+                    <img src="BUILDIN1jpeg" alt="Building" width="200px"style="margin: 4px;">
                 </div>
-                
                 30Bedrooms House
+                <div id="h3" style="background-color: lightseagreen; text-align: end;">$500.00/month</div>
             </div>
             <div  style="border-color: solid black;">
                 <img src="BUILDIN1jpeg" alt="Building" width="200px;" style="margin: 4px;">

@@ -1,5 +1,8 @@
 body{
-    background-image: url(Background.jpg);
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.082)),url(Egertonhall_Backbalcony_001.jpg);
+    background-position: center;
+    background-size: cover;
 }
 header{
 background-color: black;
@@ -42,6 +45,8 @@ margin-top: 5px;
 }
 .div5{
     margin-left: 150px;
+    opacity: 0.8;
+    z-index: 2;
 }
 .div6{
     margin-left: 5px;

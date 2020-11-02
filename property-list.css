@@ -76,7 +76,7 @@ color: honeydew;
 }
 .nav{
     display: flex;
-    background:lightgrey;
+    background:grey;
     width: 800px;
     height: 50px;
 }

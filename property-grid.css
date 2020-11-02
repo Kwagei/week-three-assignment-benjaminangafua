@@ -63,8 +63,8 @@ margin-left: 1px;
 }
 
 #h3{
-    width: 200px;
-    padding: 10px;
+    width: 20px;
+    padding: 5px;
     margin-left: 10px;
     position: relative;
 }
@@ -95,7 +95,7 @@ color: honeydew;
     margin-top: 1px;
     background:lightsteelblue;
     border-radius: 4px;
-    width: 900px;
+    width: 935px;
     height: 50px;
 }
 
@@ -118,7 +118,7 @@ color: honeydew;
         margin-top: 30px;
         margin-left: 250px;
         background-color:white;
-        height: 600px;
+        height: 620px;
         width: 230px;
         text-align: center;
         position: relative;
@@ -137,7 +137,7 @@ color: honeydew;
         background-color:white;
         border-radius: 5px;
         position: relative;
-        height: 600px;
+        height: 620px;
         width: 230px;
         text-align: center;
     }
@@ -149,7 +149,7 @@ color: honeydew;
         position: relative;
         background-color:white;
         border-radius: 12px;
-        height: 600px;
+        height: 620px;
         width: 230px;
         text-align: center;
     }
