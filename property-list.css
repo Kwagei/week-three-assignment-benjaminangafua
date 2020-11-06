@@ -1,5 +1,8 @@
-body{
-    background: lightgray;
+body{ height: 100vh;
+    background: whitesmoke;
+}
+main{
+    position: relative;
 }
 header{
 background-color: #656668;
@@ -7,7 +10,6 @@ padding-left: 180px;
 font-size: 14px;
 padding-top: 20px;
 padding-bottom: 20px;
-margin-left: 0%;
 }
 
 .container{
@@ -18,18 +20,19 @@ row-gap: 3%;
 color: honeydew;
 margin-top: 5px;
 }
-#div1{
-    margin-left: 20px;
-    margin-top: 20px;
-    height: 60px;
-    width: 100px;
-    float: inline-start;
-    background: black;
-    color: white;
-    padding: 0.5%;
-    position: absolute;
-    z-index: 2;
-}
+ #div1{
+        margin-top: 20px;
+        margin-left: 2%;
+        font-size: 14px;
+        height: 40px;
+        width: 80px;
+        float: inline-start;
+        background: black;
+        color: white;
+        padding: 0.5%;
+        position: absolute;
+        z-index: 2;
+    }
 .div2{
     margin-left: 5px;
 }
@@ -61,10 +64,20 @@ margin-top: 5px;
     height:30px;
 margin-left: 1px;
 }
-
+.inside{
+    display: inline-block;
+    padding: 9px 8px 6px 3px;
+    border: solid rgba(204, 209, 209, 0.904);
+    width: 80px;
+    text-align: center;
+    position: relative;
+    }
 #h3{
-    width: 100px;
-    float: none;;
+    width: 110px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 280px;
+    position: absolute;
 }
 
 .under{
@@ -76,82 +89,160 @@ color: honeydew;
 }
 .nav{
     display: flex;
-    background:grey;
+    background:lightgrey;
     width: 800px;
     height: 50px;
 }
-#align{display: grid;
+#align{margin-top:2%;
+    display: grid;
     grid-template-columns: 60px 240px;
-    grid-template-rows: 30px 30px 30px 30px 30px;
-    position: absolute;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+    position: relative;
 }
 .itema{
     grid-column-start: 2;
     grid-row-start: 1; 
-    margin-left: 250px;
+    margin-left: 230px;
     margin-bottom: 20px;
     margin-top: 1px;
-    background:lightsteelblue;
+    background:rgba(221, 230, 229, 0.767);
     border-radius: 4px;
-    width: 900px;
+    width: 935px;
     height: 50px;
 }
 
     .box2{grid-column-start: 1; 
         grid-row-start: 1; 
         grid-row-end: 5;
-        background: lightslategrey;
-        width: 250px;
+        background: rgba(204, 209, 209, 0.973);
+        width: 215px;
         height: 400px;
+        margin-left: 30px;
         margin-top: 1px;
+        padding-right: 2px;
         padding-left: 20px;
-        text-align-last: initial;
-        position: absolute;
-        margin-left: 35px;
+        position: relative;
     }
     
     .my1{
-        
         grid-column-start: 2;
         grid-row-start: 2; 
-        margin-top: 60px;
-        margin-left: 20px;
-        background-color:white;
-        height: 600px;
-        width: 690px;
-        text-align: start;
+        margin-top: 15%;
+        margin-left: 230px;
+        background-color: white;
+        height: 150px;
+        width: 700px;
+        text-align: left;
         position: relative;
         }
-    #image1{
-        background-image: url(BUILDING2.jpeg);
+    .my2{
+        grid-column-start: 2;
+        grid-row-start: 3; 
+        margin-top: 170px;
+        margin-left: 230px;
+        background-color: white;
+        height: 150px;
+        width: 700px;
+        text-align: left;
+        position: relative;
     }
-
+    .my3{
+        grid-column-start:2;
+        grid-row-start: 4; 
+        margin-top: 305px;
+        margin-left: 230px;
+        position: relative;
+        background-color:white;
+        border-radius: 12px;
+        height: 150px;
+        width: 700px;
+        text-align: left;
+        }
+        .my5{
+            grid-column-start:2;
+            grid-row-start: 5; 
+            margin-top: 23px;
+            position: relative;
+            background-color:white;
+            border-radius: 12px;
+            height: 150px;
+            width: 700px;
+            text-align: left;
+            }
+        .my6{
+            grid-column-start:2;
+            grid-row-start: 6; 
+            margin-top: 577px;
+            margin-left: 230px;
+            position: relative;
+            background-color:white;
+            border-radius: 12px;
+            height: 150px;
+            width: 700px;
+            text-align: left;
+            }
+        .my7{
+            grid-column-start:2;
+            grid-row-start: 7; 
+            margin-top: 713px;
+            margin-left: 230px;
+            position: relative;
+            background-color:white;
+            border-radius: 12px;
+            height: 150px;
+            width: 700px;
+            text-align: left;
+            }
+    .my8{
+        grid-column-start:2;
+        grid-row-start: 8; 
+        margin-top: 850px;
+        margin-left: 230px;
+        position: relative;
+        background-color:white;
+        border-radius: 12px;
+        height: 150px;
+        width: 700px;
+        text-align: left;
+        }
     .my4{
         grid-column-start:5;
         grid-row-start: 2; 
-        margin-top: 30px;
-        margin-left: 20px;
+        margin-top: 5%;
+        margin-left: 620px;
         background-color:white;
         border-radius: 12px;
         height: 600px;
         width: 200px;
         text-align: center;
-        position: relative;
     }
 
+    #txt{display: flex;
+    column-gap: 30px;
+    }
 .done{
     border-radius: 3PX;
-    background: blue;
+    background-color: #656668;
     color: #ffffff;
     text-align: center;
+    padding: 2px 4px 2px 4px;
     margin:9% 20% 9% 20%;
 }
-.footer{
-    padding: 5px 5px 5px 10px;
-    display: flex;
-    margin-left: 80px;
+.load{
+    border-radius: 3PX;
+    background-color: #656668;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px 4px 2px 4px;
+    margin: 0% 45% 2% 45%;
+}
+.innerfooter{
+    display: inline-flex;
+    column-gap: 30px;
     color: white;
-    margin-top: 700px;
-    text-align-last: left;
-    column-gap: 100px;
+    text-align-last: start;
+}
+footer{
+    margin-top: 5%;
+    height: 45%;
 }
