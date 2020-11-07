@@ -1,9 +1,7 @@
 body{ height: 100vh;
     background: whitesmoke;
 }
-main{
-    position: relative;
-}
+
 header{
 background-color: #656668;
 padding-left: 180px;
@@ -66,19 +64,16 @@ margin-left: 1px;
 }
 .inside{
     display: inline-block;
-    padding: 9px 8px 6px 3px;
-    border: solid rgba(204, 209, 209, 0.904);
+    padding: 9px 8px 6px 3px;;
+    width: 80px;
+    text-align: center;
     position: relative;
-    }
-    .B{padding-top: 2px;
-        width: 43px;
-        margin-left: -10px;
     }
 #h3{
     width: 110px;
     padding: 5px;
-    margin-top: -36px;
-    margin-left: 91px;
+    margin-top: 10px;
+    margin-left: 330px;
     position: absolute;
 }
 
@@ -98,18 +93,18 @@ color: honeydew;
 #align{margin-top:2%;
     display: grid;
     grid-template-columns: 60px 240px;
-    grid-template-rows: 30px 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
     position: relative;
 }
 .itema{
     grid-column-start: 2;
     grid-row-start: 1; 
-    margin-left: 230px;
+    margin-left: 260px;
     margin-bottom: 20px;
     margin-top: 1px;
     background:rgba(221, 230, 229, 0.767);
     border-radius: 4px;
-    width: 935px;
+    width: 850px;
     height: 50px;
 }
 
@@ -118,61 +113,44 @@ color: honeydew;
         grid-row-end: 5;
         background: rgba(204, 209, 209, 0.973);
         width: 215px;
-        height: 400px;
+        height: 450px;
         margin-left: 30px;
         margin-top: 1px;
-        padding-right: 2px;
+        padding-right: 20px;
         padding-left: 20px;
         position: relative;
     }
-    
-    .my1{
-        grid-column-start: 2;
-        grid-row-start: 2; 
-        margin-top: 25%;
+    .my8{
+        grid-column-start:2;
+        grid-row-start: 8; 
+        margin-top: -140px;
         margin-left: 230px;
-        background-color: white;
-        height: 800px;
-        width: 228px;
-        text-align: center;
         position: relative;
-        }
-    .my2{
-        grid-column-start: 3;
-        grid-row-start: 2; 
-        margin-top: 13%;
-        margin-left: 230px;
-        background-color: white;
-        height: 800px;
-        width: 228px;
-        text-align: center;
-        position: relative;
-    }
-    .my3{
-        grid-column-start:4;
-        grid-row-start: 2; 
-        margin-top: 25%;
-        margin-left: 20px;
-        position: relative;
-        background-color:white;
         border-radius: 12px;
-        height: 800px;
-        width: 230px;
-        text-align: center;
+        height: 70%;
+        width: 700px;
+        text-align: left;
         }
     .my4{
         grid-column-start:5;
         grid-row-start: 2; 
-        margin-top: 25%;
-        margin-left: 20px;
+        margin-top: 5%;
+        margin-left: 600px;
         background-color:white;
         border-radius: 12px;
         height: 600px;
         width: 200px;
         text-align: center;
+        position: relative;
     }
+    #peter{display: inline-block;
+        margin-left: 20px;
+        border-radius: 4%;
+}
 
-
+    #txt{display: block;
+    column-gap: 30px;
+    }
 .done{
     border-radius: 3PX;
     background-color: #656668;
@@ -196,6 +174,6 @@ color: honeydew;
     text-align-last: start;
 }
 footer{
-    margin-top: 80%;
+    margin-top: 1%;
     height: 45%;
 }

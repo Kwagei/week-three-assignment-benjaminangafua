@@ -1,6 +1,6 @@
     body{
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Entrancehall_001.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Backbalcony_001.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -143,7 +143,7 @@
     opacity: 9!important;
 }
 
-@media(max-width:518px){
+@media(max-width:360px){
     body{height: 100vh;
     margin: 8px;
     width: 100%;
@@ -184,13 +184,13 @@
     }
 
     #login{
-        padding: 30px 80px 30px 30px;
+        display: grid;
         font-size: 16;
         background: white;
         border-radius:3%;
         width: 240px;
         height: 300px;
-        margin-left: -25px;
+        margin-left: auto;
     }
 
     .under {
@@ -212,26 +212,3 @@
         position: relative;
     }
 }
-
-/* @media (min-width: 360px) {
-    body {
-      font-size: 1.0em;
-    }
-  }
-  
-  @media (min-width: 500px) {
-    .seven-day-fc .temp-low,
-    .seven-day-fc .temp-high {
-      display: inline-block;
-      width: 45%;
-    }
-  
-    .seven-day-fc .seven-day-temp {
-      margin-left: 5%;
-    }
-  
-    .seven-day-fc .icon {
-      width: 64px;
-      height: 64px;
-    }
-  } */
