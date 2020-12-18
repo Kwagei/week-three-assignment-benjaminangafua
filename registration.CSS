@@ -79,10 +79,10 @@ color: honeydew;
     font-size: 16;
     background: white;
     padding-top: 50px;
-    margin-left: 180px;
+    margin-left: 19%;
     border-radius: 12px;
-    width: 250px;
-    height: 300px;
+    width: 230px;
+    height: 350px;
     position: absolute;
 }
 
@@ -114,9 +114,9 @@ color: honeydew;
     border: groove; 
     margin-left: 600px;
     padding:0px 80px 0px 40px;
-    background: black;
+    background: solid black;
     text-align: center;
-    opacity: .8;
+    opacity: 0.8;
     z-index: 5;
     width: 30px;
     }
@@ -131,3 +131,125 @@ color: honeydew;
     text-align-last: left;
     column-gap: 100px;
 }
+@media(max-width:700px){
+    body{height: 100vh;
+    margin: 8px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Backbalcony_001.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+    .wrap{display: none;}
+    .flex{margin: 8px;}
+    .div8{
+        margin-left: 0px;
+    }
+    .div6{
+        margin-left: 2px;
+        width: 200px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 15% 0% 0% 5%;
+        column-gap: 1%;
+        row-gap: 3%;
+        color: honeydew;
+        margin-top: 5px;
+    }
+    #div1 {
+        margin-top: 20px;
+        height: 60px;
+        width: 90px;
+        background: black;
+        color: white;
+        padding: 1px;
+        position: absolute;
+        z-index: 2;
+    } 
+
+    .div2, .div3, .div4{display: none;
+    }
+    .div5{
+        margin-left: 130px;
+    }
+    .main{display:flex;
+        align-content:start;
+        margin: 1%;}
+    #login{
+        display: block;
+        background: white;
+        border-radius:3%;
+        width: 220px;
+        margin: 0px 0px 0px 0px;
+        padding: 40px 70px 40px 30px;
+        height: 350px;
+        position: relative;
+    }
+
+    .under {
+        display: grid;
+        grid-template-columns: 5% 30% 0%;
+        column-gap: 1%;
+        row-gap: 4%;
+        color: honeydew;
+        position: relative;
+    }
+    header{
+        background-color: black;
+        border: 1px solid black;
+        opacity: 0.4;
+        padding-left: 100px;
+        font-size: 14px;
+        padding-top: 20px;
+        margin-left: 1px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .div8{
+        background: blue;
+        border-radius: 5%;
+        text-align: center;
+        color: ghostwhite;
+        padding-top: 12px;
+        width:140px;
+        height:30px;
+    margin-left: 70px;
+    }
+}
+@media(max-width:800px){
+body {
+        display: block;
+        margin: 8px;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.822),rgba(0, 0, 0, 0.082)),url(./images/Egertonhall_Backbalcony_001.jpg);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: cover;
+        }
+        .wrap {
+            text-align: end;
+            color: white;
+            align-items: center;
+            padding-right: 20px;
+            width: 710px;
+            margin-left: 5%;
+            height: 300px;
+            background-color: black;
+            border: 1px solid black;
+            opacity: .5;
+            position: relative;
+        }
+        .register {
+            border-radius: 5px;
+            border: groove;
+            margin-left: 600px;
+            padding: 0px 50px 0px 30px;
+            background: solid black;
+            text-align: center;
+            opacity: 0.8;
+            z-index: 2;
+            width: 20px;
+        }
+       }
