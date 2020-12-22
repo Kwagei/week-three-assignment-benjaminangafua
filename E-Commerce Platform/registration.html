@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        body {
+            height: 100vh;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Backbalcony_001.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        header {
+            background-color: black;
+            border: 1px solid black;
+            opacity: 0.7;
+            padding-left: 120px;
+            font-size: 14px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 15% 50% 0% 5%;
+            column-gap: 1%;
+            row-gap: 3%;
+            color: honeydew;
+            margin-top: 5px;
+        }
+        
+        #div1 {
+            margin-top: 20px;
+            height: 60px;
+            width: 100px;
+            float: inline-start;
+            background: black;
+            color: white;
+            padding: 0.5%;
+            position: absolute;
+            z-index: 2;
+        }
+        
+        .div2 {
+            margin-left: 5px;
+        }
+        
+        .div3 {
+            width: 130px;
+            margin-left: -80px;
+        }
+        
+        .div4 {
+            margin-left: 100px;
+            height: 20px;
+        }
+        
+        .div5 {
+            margin-left: 150px;
+            opacity: 0.8;
+            z-index: 2;
+        }
+        
+        .div6 {
+            margin-left: 5px;
+            width: 200px;
+        }
+        
+        .div7 {
+            margin-left: 40px;
+        }
+        
+        .div8 {
+            background: blue;
+            border-radius: 5%;
+            text-align: center;
+            color: ghostwhite;
+            padding-top: 12px;
+            width: 140px;
+            height: 30px;
+            margin-left: 70px;
+        }
+        
+        .under {
+            display: grid;
+            grid-template-columns: 5% 70% 0%;
+            column-gap: 1%;
+            row-gap: 4%;
+            color: honeydew;
+        }
+        
+        #login {
+            padding: 40px 80px 40px 30px;
+            font-size: 16;
+            background: white;
+            padding-top: 50px;
+            margin-left: 19%;
+            border-radius: 12px;
+            width: 230px;
+            height: 350px;
+            position: absolute;
+        }
+        
+        .white {
+            background-color: rgb(70, 67, 67);
+            color: white;
+            border-radius: 5%;
+            text-align: center;
+            padding: 8px;
+            margin-left: 40%;
+            margin-right: 10%;
+        }
+        
+        div.wrap {
+            opacity: 0.6;
+        }
+        
+        .wrap {
+            text-align: end;
+            color: white;
+            margin: 5% -150px 5% 8%;
+            padding-right: 120px;
+            width: 710px;
+            height: 300px;
+            background-color: black;
+            border: 1px solid black;
+            opacity: 9;
+            position: relative;
+        }
+        
+        .register {
+            border-radius: 5px;
+            border: groove;
+            margin-left: 600px;
+            padding: 0px 80px 0px 40px;
+            background: solid black;
+            text-align: center;
+            opacity: 0.8;
+            z-index: 5;
+            width: 30px;
+        }
+        
+        .main {
+            display: flex;
+        }
+        
+        .footer {
+            padding: 20px;
+            display: flex;
+            margin-left: 80px;
+            color: white;
+            margin-top: 20px;
+            text-align-last: left;
+            column-gap: 100px;
+        }
+        
+        @media(max-width:700px) {
+            body {
+                height: 100vh;
+                margin: 8px;
+                width: 100%;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Backbalcony_001.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: block;
+            }
+            .wrap {
+                display: none;
+            }
+            .flex {
+                margin: 8px;
+            }
+            .div8 {
+                margin-left: 0px;
+            }
+            .div6 {
+                margin-left: 2px;
+                width: 200px;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 15% 0% 0% 5%;
+                column-gap: 1%;
+                row-gap: 3%;
+                color: honeydew;
+                margin-top: 5px;
+            }
+            #div1 {
+                margin-top: 20px;
+                height: 60px;
+                width: 90px;
+                background: black;
+                color: white;
+                padding: 1px;
+                position: absolute;
+                z-index: 2;
+            }
+            .div2,
+            .div3,
+            .div4 {
+                display: none;
+            }
+            .div5 {
+                margin-left: 130px;
+            }
+            .main {
+                display: flex;
+                align-content: start;
+                margin: 1%;
+            }
+            #login {
+                display: block;
+                background: white;
+                border-radius: 3%;
+                width: 220px;
+                margin: 0px 0px 0px 0px;
+                padding: 40px 70px 40px 30px;
+                height: 350px;
+                position: relative;
+            }
+            .under {
+                display: grid;
+                grid-template-columns: 5% 30% 0%;
+                column-gap: 1%;
+                row-gap: 4%;
+                color: honeydew;
+                position: relative;
+            }
+            header {
+                background-color: black;
+                border: 1px solid black;
+                opacity: 0.4;
+                padding-left: 100px;
+                font-size: 14px;
+                padding-top: 20px;
+                margin-left: 1px;
+                padding-bottom: 20px;
+                position: relative;
+            }
+            .div8 {
+                background: blue;
+                border-radius: 5%;
+                text-align: center;
+                color: ghostwhite;
+                padding-top: 12px;
+                width: 140px;
+                height: 30px;
+                margin-left: 70px;
+            }
+        }
+        
+        @media(max-width:800px) {
+            body {
+                display: block;
+                margin: 8px;
+                height: 100vh;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Backbalcony_001.jpg);
+                background-repeat: repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .wrap {
+                text-align: end;
+                color: white;
+                align-items: center;
+                padding-right: 20px;
+                width: 710px;
+                margin-left: 5%;
+                height: 300px;
+                background-color: black;
+                border: 1px solid black;
+                opacity: .5;
+                position: relative;
+            }
+            .register {
+                border-radius: 5px;
+                border: groove;
+                margin-left: 600px;
+                padding: 0px 50px 0px 30px;
+                background: solid black;
+                text-align: center;
+                opacity: 0.8;
+                z-index: 2;
+                width: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div id="div1"><br>SILKROAD</div>
+        <header>
+            <div class="container">
+                <div class="div2"><a href="registration.html" style="color: white; text-decoration: none;">Home</a> </div>
+                <div class="div3"> <a href="property-grid.html" style="color: white; text-decoration: none;">Our Property</a> </div>
+                <div class="div4"> <a href="login.html" style="color: white; text-decoration: none;">Login</a>&VerticalLine;</div>
+                <div class="div5"> <a href="registration.html" style="color: white; text-decoration: none;">Register</a> </div>
+            </div>
+            <hr style="color: blanchedalmond;">
+            <div class="under">
+                <div class="div6"><a href="registration.html" style="color: white; text-decoration: none;">Home &gt;</a> </div>
+                <div class="div7"> <a href="login.html" style="color: white; text-decoration: none;">Login</a> </div>
+                <div class="div8"> <a href="property-list.html" style="color: white; text-decoration: none;">Post a Property</a> </div>
+            </div>
+        </header><br>
+    </div>
+    <main class="main">
+        <div class="wrap" style="border: solid #ffff;">
+            <div style="margin-top: 20px;"><strong>Already have an account?</strong> <br><br> Null sed justo consectetur,<br> laoreet nisi in morbi pac. <br> Cras petrium nisl tortor, <br> nec finibus libero consectetur
+            </div><br>
+            <div class="register">
+                <a href="registration.html" style="text-decoration: none; color: white;">Register</a>
+            </div>
+        </div>
+        <div id="login">
+            <label for="login">
+                <div style="font-size: 20px;"> REGISTERR</div>
+                    <br>
+                    <div>
+                        <input type="text" placeholder="Full name" style="padding:6px; width: 265px; background: rgba(169, 175, 175, 0.938); border:none;">
+                    </div>
+                    <br>
+                <div style="display: flex;">
+                <select name="Country code" id="Country Code" style="padding:6px;background:rgb(59, 85, 109); color: white;">
+                    <option value="+231">+231</option>
+                    <option value="+122">+122</option>
+                    <option value="+233">+233</option>
+                    <option value="+432">+432</option>
+                    <option value="+567">+567</option>
+                    <option value="+809">+809</option>
+                    <input type="tel" id="tel" placeholder="Phone" style="padding:6px; background: rgba(169, 175, 175, 0.938); border: none;">
+                </select>
+                </div> 
+                <br><br>
+                <div>
+                    <input type="password" placeholder="Password" style="width: 265px; background: rgba(169, 175, 175, 0.938); border: none; padding: 6px;">
+                </div>
+                <br>
+                <div id="h3" style="color: lightseagreen; text-align: end;">Forgot Password</div>
+                <br> 
+            </label>
+            <div style="text-align: right;"> I agree to the term and condition<input type="checkbox"></div> <br>
+            <div class="white"> Register</div>
+            <br>
+            <div> Register with
+                <a href="#">
+                    <img src="Facebook.jpg" width="20px" height="20px" alt="Facebook page"><img src="Twitter.jpg" width="20px" height="20px" alt="Facebook page"> </a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

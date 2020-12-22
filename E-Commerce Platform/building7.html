@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myproperty</title>
+    <style>
+        .overlay-content {
+            position: relative;
+            top: 46%;
+            width: 80%;
+            text-align: center;
+            margin-top: 30px;
+            margin: auto;
+        }
+        
+        body {
+            height: 100vh;
+            background: whitesmoke;
+        }
+        
+        header {
+            background-color: #656668;
+            padding-left: 180px;
+            font-size: 14px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 15% 50% 0% 5%;
+            column-gap: 1%;
+            row-gap: 3%;
+            color: honeydew;
+            margin-top: 5px;
+        }
+        
+        #div1 {
+            margin-top: 20px;
+            margin-left: 2%;
+            font-size: 14px;
+            height: 40px;
+            width: 80px;
+            float: inline-start;
+            background: black;
+            color: white;
+            padding: 0.5%;
+            position: absolute;
+            z-index: 2;
+        }
+        
+        .div2 {
+            margin-left: 5px;
+        }
+        
+        .div3 {
+            width: 130px;
+            margin-left: -80px;
+        }
+        
+        .div4 {
+            margin-left: 100px;
+            height: 20px;
+        }
+        
+        .div5 {
+            margin-left: 135px;
+        }
+        
+        .div6 {
+            margin-left: 5px;
+            width: 200px;
+        }
+        
+        .div7 {
+            margin-left: 40px;
+        }
+        
+        .div8 {
+            background: blue;
+            border-radius: 5%;
+            text-align: center;
+            color: ghostwhite;
+            padding-top: 12px;
+            width: 140px;
+            height: 30px;
+            margin-left: 1px;
+        }
+        
+        .inside {
+            display: inline-block;
+            padding: 9px 8px 6px 3px;
+            ;
+            width: 80px;
+            text-align: center;
+            position: relative;
+        }
+        
+        #h3 {
+            width: 110px;
+            padding: 5px;
+            margin-top: 10px;
+            margin-left: 330px;
+            position: absolute;
+        }
+        
+        .under {
+            display: grid;
+            grid-template-columns: 5% 70% 0%;
+            column-gap: 1%;
+            row-gap: 4%;
+            color: honeydew;
+        }
+        
+        .nav {
+            display: flex;
+            background: lightgrey;
+            width: 800px;
+            height: 50px;
+        }
+        
+        #align {
+            margin-top: 2%;
+            display: grid;
+            grid-template-columns: 60px 240px;
+            grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+            position: relative;
+        }
+        
+        .itema {
+            grid-column-start: 2;
+            grid-row-start: 1;
+            margin-left: 260px;
+            margin-bottom: 20px;
+            margin-top: 1px;
+            background: rgba(221, 230, 229, 0.767);
+            border-radius: 4px;
+            width: 850px;
+            height: 50px;
+        }
+        
+        .box2 {
+            grid-column-start: 1;
+            grid-row-start: 1;
+            grid-row-end: 5;
+            background: rgba(204, 209, 209, 0.973);
+            width: 215px;
+            height: 450px;
+            margin-left: 30px;
+            margin-top: 1px;
+            padding-right: 20px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .my8 {
+            grid-column-start: 2;
+            grid-row-start: 8;
+            margin-top: -140px;
+            margin-left: 230px;
+            position: relative;
+            border-radius: 12px;
+            height: 70%;
+            width: 700px;
+            text-align: left;
+        }
+        
+        .my4 {
+            grid-column-start: 5;
+            grid-row-start: 2;
+            margin-top: 5%;
+            margin-left: 600px;
+            background-color: white;
+            border-radius: 12px;
+            height: 600px;
+            width: 200px;
+            text-align: center;
+            position: relative;
+        }
+        
+        #peter {
+            display: inline-block;
+            margin-left: 20px;
+            border-radius: 4%;
+        }
+        
+        #txt {
+            display: block;
+            column-gap: 30px;
+        }
+        
+        .done {
+            border-radius: 3PX;
+            background-color: #656668;
+            color: #ffffff;
+            text-align: center;
+            padding: 2px 4px 2px 4px;
+            margin: 9% 20% 9% 20%;
+        }
+        
+        .load {
+            border-radius: 3PX;
+            background-color: #656668;
+            color: #ffffff;
+            text-align: center;
+            padding: 2px 4px 2px 4px;
+            margin: 0% 45% 2% 45%;
+        }
+        
+        .innerfooter {
+            display: inline-flex;
+            column-gap: 30px;
+            color: white;
+            text-align-last: start;
+        }
+        
+        footer {
+            margin-top: 1%;
+            height: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">SILKROAD</div>
+    <header>
+        <div class="container">
+            <div class="div2"><a href="registration.html" style="color: white; text-decoration: none;">Home</a> </div>
+            <div class="div3"> <a href="property-grid.html" style="color:rgb(21, 226, 216); text-decoration: none;">Our Property</a> </div>
+            <div class="div4"> <a href="login.html" style="color: white; text-decoration: none;">Login</a>&VerticalLine;</div>
+            <div class="div5"> <a href="registration.html" style="color: white; text-decoration: none;">Register</a> </div>
+        </div>
+        <hr style="color: blanchedalmond;">
+        <div class="under">
+            <div class="div6"><a href="registration.html" style="color: white; text-decoration: none;">Home &gt;</a> </div>
+            <div class="div7"> <a href="login.html" style="color: white; text-decoration: none;">Login</a> </div>
+            <div class="div8"> <a href="property-list.html" style="color: white; text-decoration: none;">Post a Property</a> </div>
+        </div>
+    </header>
+    <main id="align">
+        <div>
+            <div class="box2">
+                <br>
+                <stong style="text-align: left;">Search</stong>
+                <form action="/action_page.php">
+                    <input type="text" placeholder=" color: white; Search.. &telrec; " name="search" style="background: rgba(34, 33, 33, 0.562);">
+                </form> <br>
+                <label for="Category">Category<br>
+                <input type="text" id="text" placeholder="Most recent" style="background:white; height: 24px; width: 130px; border:none;">
+                    
+                <select name="room number" id="room number" style="background: rgb(81, 117, 146); color: white; width:55px; height: 25px; margin-top: 0.6px; margin-left: -11px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br>
+                </select><br><br>
+                Location<br>
+                <input type="text" id="text" placeholder="Most recent" style="background: white; height: 24px; width: 130px; border:none;">
+                    
+                <select name="city" id="citys" style="background: rgb(81, 117, 146); color: white; width:55px; height: 25px; margin-top: 0.6px; margin-left: -11px;">
+                    <option value="Monrovia">Monrovia</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Jerusalem">Jerusalem</option>
+                    <option value="Kampala">Kampala</option>
+                    <option value="Washington DC">Washington DC</option>
+                </select>
+                <br><br>
+                Bedrooms <br>
+                <input type="text" id="text" placeholder="Most recent" style="background: white; height: 24px; width: 130px; border:none;">
+                    
+                <select name="room number" id="room number" style="background: rgb(81, 117, 146); color: white; width:55px; height: 25px; margin-top: 0.6px; margin-left: -11px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <br><br>
+                Bathroom:  <br>
+                <input type="text" id="text" placeholder="Most recent" style="background: white; height: 24px; width: 130px; border:none;">
+                    
+                <select name="room number" id="room number" style="background: rgb(81, 117, 146); color: white; width:55px; height: 25px; margin-top: 0.6px; margin-left: -11px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </label>
+                <br><br> Price: $00.00-$10,00.00<br>
+                <input type="range">
+                <div class="done">Done</div>
+            </div>
+        </div>
+        <div class="nav itema">
+            <div style="margin: 20px;">All</div>
+            <div style="margin: 20px;">Rent</div>
+            <div style="margin: 20px;">sale</div>
+            <div style="margin-top: 20px;margin-left: 360px; text-align: center;">View &nbsp;
+                <a href="property-list.html"><img src="./images/list1.jpg" width="25px" height="23px" alt="triangle"></a> &nbsp;
+                <a href="property-grid.html"><img src="./images/grid1.png" width="28" height="23px" alt="triangle">
+                </a>
+            </div>
+            <div style="margin-left: 10px; margin-top:20px;">Sort by
+                <select placeholder="bedroom number" name="bedroom number" style="background: white;">
+                    <option value="Most Recent">Most Recent</option>
+                    <option value="2 Accessible">2 Accessible</option>
+                    <option value="3 Accessible">3 Accessible</option>
+                    <option value="4 Accessible">4 Accessible"</option>
+                </select>
+            </div>
+        </div>
+        <div class="my8">
+            <div id="txt">
+                <div style="text-align: center;"><img src="./images/Guest.jpg" alt="Big building" width="580px;" height="310px"></div>
+                <div style="margin-top: 30px; padding-left: 20px;">
+                    <div id="h3" style="background-color: rgb(21, 226, 216); text-align: end;"><strong>$500.00/</strong><small>month</small></div>
+                    <strong><br> 3 Bedrooms Townhouse</strong><br>
+                    <img src="./images/gps1.png" height="20px" alt="gps">45 Circle Dr.Monrovia, Liberia<br>
+                    <div class="inside B"><img src="./images/triangle1.png" height="12px" alt="triangle"> 1</div>
+                    <div class="inside B"><img src="./images/book.png" height="20px" alt="triangle"> 2</div>
+                    <div class="inside B"><img src="./images/memory1.jpg" height="20px" alt="triangle"> 3</div>
+                    <div class="inside B"><img src="./images/tv1.png" height="20px" alt="triangle">4</div><br> Peter Waye <br> <br>
+                    <div id="peter" style="background-color: gray; color: white; width: 150px; padding: 11px;">&phone; Give Peter a call</div>
+                    <div id="peter" style="background-color: gray; color: white; width: 150px; padding: 11px;"> &commat; Give Peter an email</div> <br><br>
+                    <strong> Property Description </strong><br> <br>his building comprices of 3 room all with inside bathroom and dresser. <br> The rectangular building faces north on its small lot, which sits on Town Highway 25 in the village of Bakersfield.
+                    <br>
+                    <br> <strong>Availability Amenities </strong><br>
+                    <div id="peter">
+                        <br> Swimming pools <br> Laundry <br> Advertisement <br> Garden <br> Generator <br> SHARE PROPERTY <br>
+                        <a href=""><img src="Twitter.jpg" width="50px" height="40px" alt="twitter"></a>
+                        <a href=""><img src="instagram.jpeg" width="50px" height="40px" alt="instagram"></a>
+                        <a href=""><img src="Facebook.jpg" width="50px" height="40px" alt="Facebook page"></a><br> SHARE PROPERTY <br>
+                    </div>
+                    <div id="peter">Study <br> Internet Access <br> Satellite Television <br> Fitted Kitchen <br> Water Reservoir <br> Store Room <br>
+                    </div>
+                    <div id="peter">Running Water <br> Electricity <br> Generator <br> Gazebo <br> Balcony <br> Security Fence
+                    </div> <br> <br>
+                    <div style="margin-left: 0px;"><img src="./images/gps.gif" alt="Big building" width="650px;" height="350px"></div> <br>
+                </div>
+            </div>
+        </div>
+        <div style=" border: solid rgba(174, 180, 180, 0.877);" class="my4">
+            <div style="margin-top:300px;">
+                ADVERTISEMENT
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="load">Load more</div>
+        <div style="background: gray; padding-left: 10px; padding-top: 10px;">
+            <div class="innerfooter">
+                <div>
+                    <strong>Contact us</strong><br><br> 6116 Second W Gore Crescent <br><br> Monrovia-Liberia, West Africa <br><br> +23145281134 silkroad@kwagei.com
+                </div>
+                <div>
+                    <strong>Quick Link</strong> <br><br> Register About us <br><br> Login Private Policy <br><br> Post Property Terms & conditions <br><br> Our Recent Posting <br><br> FAQ <br><br> Contact Us <br><br>
+                </div>
+                <div>
+                    <strong>Our Recent Position</strong> <br><br> 3 Bedroom apartment at Sialkor Height <br>
+                    <small>45 Circle Dr. Monrovia-Liberia<br></small>
+                    <br> 3 Bedroom apartment at Sialkor Height<br>
+                    <small>45 Circle Dr. Monrovia-Liberia<br></small>
+                    <br> 3 Bedroom apartment at Sialkor Height<br>
+                    <small>45 Circle Dr. Monrovia-Liberia</small>
+                </div>
+            </div>
+            <hr color="white">
+
+            <div style="display:flex; color: white;">
+                <div>
+                    Copyright&copy;2017-Kwagei-~Group-All rights reserved
+                </div>
+                <div style="margin-left: 600px;">
+                    <strong>SILKROAD</strong>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
