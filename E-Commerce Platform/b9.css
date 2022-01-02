@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background: whitesmoke;
+}
+
+main {
+    float: 1 0 auto;
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+header {
+    background-color: #656668;
+    padding-left: 180px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 15% 50% 0% 5%;
+    column-gap: 1%;
+    row-gap: 3%;
+    color: honeydew;
+    margin-top: 5px;
+}
+
+#div1 {
+    margin-top: 20px;
+    margin-left: 2%;
+    font-size: 14px;
+    height: 40px;
+    width: 80px;
+    float: inline-start;
+    background: black;
+    color: white;
+    padding: 0.5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.div2 {
+    margin-left: 5px;
+}
+
+.div3 {
+    width: 130px;
+    margin-left: -80px;
+}
+
+.div4 {
+    margin-left: 100px;
+    height: 20px;
+}
+
+.div5 {
+    margin-left: 135px;
+}
+
+.div6 {
+    margin-left: 5px;
+    width: 200px;
+}
+
+.div7 {
+    margin-left: 40px;
+}
+
+.div8 {
+    background: blue;
+    border-radius: 5%;
+    text-align: center;
+    color: ghostwhite;
+    padding-top: 12px;
+    width: 140px;
+    height: 30px;
+    margin-left: 1px;
+}
+
+#build2 {
+    display: none;
+}
+
+.inside {
+    display: inline-block;
+    padding: 9px 8px 6px 3px;
+    width: 80px;
+    text-align: center;
+    position: relative;
+}
+
+#build-details {
+    display: none;
+}
+
+#h3 {
+    width: 110px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 330px;
+    position: absolute;
+}
+
+.under {
+    display: grid;
+    grid-template-columns: 5% 70% 0%;
+    column-gap: 1%;
+    row-gap: 4%;
+    color: honeydew;
+}
+
+.property-nav {
+    display: flex;
+    background: lightgrey;
+    width: 580px;
+    height: 50px;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    margin: 1px 0px 20px 260px;
+    background: rgba(221, 230, 229, 0.767);
+    border-radius: 4px;
+}
+
+#align {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 80px 180px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px;
+    position: relative;
+}
+
+.box2 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background: rgba(204, 209, 209, 0.973);
+    width: 285px;
+    height: 450px;
+    margin-left: 30px;
+    margin-top: 1px;
+    padding-right: 60px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.my8 {
+    grid-column-start: 2;
+    grid-row-start: 8;
+    margin-top: -140px;
+    margin-left: 260px;
+    position: relative;
+    border-radius: 12px;
+    height: 70%;
+    width: 700px;
+    text-align: left;
+}
+
+.my4 {
+    grid-column-start: 5;
+    grid-row-start: 2;
+    margin-top: -30px;
+    margin-left: 600px;
+    background-color: white;
+    border-radius: 12px;
+    height: 600px;
+    width: 200px;
+    padding-top: 10px;
+    text-align: center;
+    position: relative;
+}
+
+#peter {
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 4%;
+}
+
+#txt {
+    display: block;
+    column-gap: 30px;
+}
+
+.done {
+    border-radius: 3PX;
+    background-color: #656668;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px 4px 2px 4px;
+    margin: 9% 20% 9% 20%;
+}
+
+.load {
+    border-radius: 3PX;
+    background-color: #656668;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    padding: 2px 4px 2px 4px;
+    margin: 0% 45% 2% 45%;
+}
+
+.innerfooter {
+    display: inline-flex;
+    column-gap: 30px;
+    color: white;
+    text-align-last: start;
+}
+
+footer {
+    margin-top: 1%;
+    height: 45%;
+    width: 100%;
+}
+
+@media(max-width: 550px) {
+    * {
+        box-sizing: border-box;
+    }
+    body {
+        display: block;
+        min-height: 100vh;
+        padding: 0;
+        margin: 8px;
+        flex-direction: column;
+        background: whitesmoke;
+    }
+    main {
+        float: 1 0 auto;
+    }
+    .hr1 {
+        margin-left: -80px;
+        width: 239px;
+    }
+    hr {
+        width: 100%;
+    }
+    .div2 {
+        margin-left: -80px;
+    }
+    .div3 {
+        width: 130px;
+        margin-left: -60px;
+    }
+    .div4 {
+        margin-left: -50px;
+        height: 20px;
+    }
+    .div5 {
+        margin-left: -8px;
+    }
+    .div6 {
+        margin-left: -80px;
+        width: 200px;
+    }
+    .div7 {
+        margin-left: -40px;
+    }
+    #build-details {
+        display: block;
+        width: 100%;
+    }
+    .div8 {
+        background: blue;
+        border-radius: 2%;
+        text-align: center;
+        color: ghostwhite;
+        padding-top: 4px;
+        width: 100px;
+        height: 20px;
+        margin-left: -71px;
+    }
+    .box2 {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        background: rgba(204, 209, 209, 0.973);
+        width: 100%;
+        height: 450px;
+        margin-left: 0px;
+        margin-top: 1px;
+        padding-right: 20px;
+        padding-left: 20px;
+        position: relative;
+    }
+    .my4 {
+        display: none;
+    }
+    .property-nav {
+        display: none;
+    }
+    #align {
+        margin-top: 2%;
+        display: block;
+        grid-template-columns: 60px;
+        grid-template-rows: 30px 30px;
+        position: relative;
+    }
+    #build2 {
+        display: block;
+        margin-top: 5%;
+        width: 100%;
+        height: 200px;
+    }
+    #build {
+        width: 100%;
+        height: 100%;
+    }
+    .my8 {
+        display: none;
+    }
+    .inside {
+        display: inline-block;
+        padding: 9px 8px 6px 3px;
+        width: 60px;
+        text-align: center;
+        position: relative;
+    }
+    #h3 {
+        width: 110px;
+        padding: 5px;
+        margin-top: 10px;
+        margin-left: 180px;
+        position: absolute;
+    }
+    footer {
+        display: block;
+        font-size: 12px;
+        width: 100%;
+    }
+    .load {
+        padding: 10px;
+        margin: 3% 35%;
+    }
+}

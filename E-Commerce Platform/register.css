@@ -1,0 +1,271 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.822), rgba(0, 0, 0, 0.082)), url(./images/Egertonhall_Backbalcony_001.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.input {
+    padding: 6px;
+    width: 265px;
+    background: rgba(169, 175, 175, 0.938);
+    border: none;
+}
+
+header {
+    background-color: black;
+    border: 1px solid black;
+    opacity: 0.7;
+    padding-left: 120px;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 15% 50% 0% 5%;
+    column-gap: 1%;
+    row-gap: 3%;
+    color: honeydew;
+    margin-top: 5px;
+}
+
+#div1 {
+    margin-top: 20px;
+    height: 60px;
+    width: 100px;
+    float: inline-start;
+    background: black;
+    color: white;
+    padding: 0.5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.div2 {
+    margin-left: 5px;
+}
+
+.div3 {
+    width: 130px;
+    margin-left: -80px;
+}
+
+.div4 {
+    margin-left: 100px;
+    height: 20px;
+}
+
+.div5 {
+    margin-left: 150px;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.div6 {
+    margin-left: 5px;
+    width: 200px;
+}
+
+.div7 {
+    margin-left: 40px;
+}
+
+.div8 {
+    background: blue;
+    border-radius: 5%;
+    text-align: center;
+    color: ghostwhite;
+    padding-top: 12px;
+    width: 140px;
+    height: 30px;
+    /* margin-left: 70px; */
+}
+
+.under {
+    display: grid;
+    grid-template-columns: 5% 70% 0%;
+    column-gap: 1%;
+    row-gap: 4%;
+    color: honeydew;
+}
+
+#login {
+    padding: 40px 80px 40px 30px;
+    font-size: 16;
+    background: white;
+    padding-top: 50px;
+    margin-left: 19%;
+    border-radius: 12px;
+    width: 230px;
+    height: 350px;
+    position: absolute;
+}
+
+.white {
+    background-color: rgb(4, 61, 247);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    padding: 3px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+div.wrap {
+    opacity: 0.6;
+}
+
+.wrap {
+    text-align: end;
+    color: white;
+    margin: 5% -150px 5% 8%;
+    padding-right: 120px;
+    width: 710px;
+    height: 300px;
+    background-color: black;
+    border: 1px solid black;
+    opacity: 9;
+    position: relative;
+}
+
+#register {
+    border-radius: 2px;
+    border: groove;
+    margin-left: 55%;
+    margin-top: 17%;
+    color: rgb(0, 0, 0);
+    background: black !important;
+    text-align: center;
+    opacity: 6;
+    position: absolute;
+    float: left;
+    z-index: 5;
+    width: 80px;
+}
+
+.main {
+    display: flex;
+}
+
+.footer {
+    padding: 20px;
+    display: flex;
+    margin-left: 80px;
+    color: white;
+    margin-top: 20px;
+    text-align-last: left;
+    column-gap: 100px;
+}
+
+hr {
+    display: block;
+}
+
+#account-exist {
+    display: none;
+}
+
+#centering {
+    text-align: center;
+}
+
+@media (max-width: 950px) {
+    body {
+        display: block;
+        margin: 8px;
+    }
+    #account-exist {
+        display: block;
+    }
+    .property-nav {
+        display: flex;
+        background: lightgrey;
+        width: 800px;
+        height: 50px;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        margin-top: 1px;
+        background: rgba(221, 230, 229, 0.767);
+        border-radius: 4px;
+        width: 935px;
+        height: 50px;
+    }
+    #div1 {
+        margin-top: 20px;
+        height: 50px;
+        width: 82px;
+        font-size: 15px;
+        float: inline-start;
+        background: black;
+        color: white;
+        padding: 1%;
+        position: absolute;
+        z-index: 2;
+    }
+    hr {
+        display: none;
+    }
+    .div2 {
+        margin-left: 0px;
+    }
+    .div3 {
+        display: none;
+    }
+    .div4 {
+        margin-left: 30%;
+        height: 20px;
+    }
+    .div5 {
+        margin-left: 0%;
+    }
+    .div6 {
+        display: none;
+    }
+    .div7 {
+        display: none;
+    }
+    .div8 {
+        background: blue;
+        border-radius: 2%;
+        text-align: center;
+        color: ghostwhite;
+        padding-top: 4px;
+        width: 100px;
+        height: 20px;
+        margin-left: 0;
+    }
+    .wrap {
+        display: none;
+    }
+    .register {
+        border-radius: 5px;
+        border: groove;
+        /* margin-left: 600px; */
+        padding: 0px 50px 0px 30px;
+        background: solid black;
+        text-align: center;
+        opacity: 0.8;
+        z-index: 2;
+        width: 20px;
+    }
+    #login {
+        font-size: 16;
+        background: white;
+        margin-left: 3%;
+        border-radius: 12px;
+        width: 60%;
+        height: 60%;
+        position: absolute;
+    }
+    #register {
+        display: none;
+    }
+}
