@@ -6,6 +6,13 @@ body {
     background-size: cover;
 }
 
+.input {
+    padding: 6px;
+    width: 265px;
+    background: rgba(169, 175, 175, 0.938);
+    border: none;
+}
+
 header {
     background-color: black;
     border: 1px solid black;
@@ -74,7 +81,7 @@ header {
     padding-top: 12px;
     width: 140px;
     height: 30px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
 
 .under {
@@ -213,11 +220,11 @@ hr {
         display: none;
     }
     .div4 {
-        margin-left: 80px;
+        margin-left: 30%;
         height: 20px;
     }
     .div5 {
-        margin-left: 8px;
+        margin-left: 0%;
     }
     .div6 {
         display: none;
@@ -233,7 +240,7 @@ hr {
         padding-top: 4px;
         width: 100px;
         height: 20px;
-        margin-left: 105px;
+        margin-left: 0;
     }
     .wrap {
         display: none;
@@ -241,7 +248,7 @@ hr {
     .register {
         border-radius: 5px;
         border: groove;
-        margin-left: 600px;
+        /* margin-left: 600px; */
         padding: 0px 50px 0px 30px;
         background: solid black;
         text-align: center;
